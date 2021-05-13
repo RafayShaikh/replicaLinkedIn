@@ -33,14 +33,16 @@ function App() {
 
   return (
     <div className='App'>
-      <Header />
       {!user ? (
         <Login />
       ) : (
-        <div className='body'>
-          <Sidebar />
-          <Feed />
-          <Widgets />
+        <div className='page'>
+          <Header />
+          <div className='body'>
+            <Sidebar />
+            <Feed />
+            <Widgets />
+          </div>
         </div>
       )}
     </div>

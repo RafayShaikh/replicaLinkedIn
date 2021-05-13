@@ -24,6 +24,11 @@
   padding-left: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
+  border: none;
+}
+.login > form > input:focus {
+  border: none;
+  box-shadow: 0 0 10px 1px blue;
 }
 .login > form > button {
   width: 365px;

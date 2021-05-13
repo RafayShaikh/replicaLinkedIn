@@ -72,7 +72,7 @@ function Login() {
           type='text'
           value={profilePicture}
           onChange={(e) => setProfilePicture(e.target.value)}
-          placeholder='Profile Picture(Optional)'
+          placeholder='Profile Picture(For registering)'
         />
 
         <input
@@ -93,6 +93,7 @@ function Login() {
           Sign In
         </button>
       </form>
+
       <p>
         Not a member?{'  '}
         <span className='login_register' onClick={register}>
